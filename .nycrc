@@ -1,0 +1,12 @@
+{
+  "reporter": [
+    "lcov",
+    "text-summary"
+  ],
+  "exclude": [
+    "spec/**/*.js",
+    "node_modules/",
+    "coverage/"
+  ],
+  "all": true
+}

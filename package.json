@@ -1,0 +1,23 @@
+{
+  "name": "nyc-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "koa": "^2.0.0-alpha.7"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.2",
+    "jasmine-co": "^1.2.1",
+    "nyc": "^8.3.0",
+    "babel-plugin-istanbul": "^2.0.2",
+    "supertest": "^2.0.0"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test nyc node_modules/jasmine/bin/jasmine.js",
+    "debug": "node --harmony_async_await debug index.js",
+    "start": "node --harmony_async_await index.js"
+  },
+  "author": "artworkad",
+  "license": "MIT"
+}
